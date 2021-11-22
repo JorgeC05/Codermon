@@ -1,0 +1,31 @@
+#avatares{
+    width: 100%;
+    height: 50%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pokemones{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.avatarImage{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-reduce{
+    background-color: transparent;
+}

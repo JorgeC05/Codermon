@@ -1,0 +1,29 @@
+.listaPokemon{
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-ajax{
+    background-color: rgba(245, 245, 245, 0.124);
+    flex-grow: 1;
+    margin: 10px 10px;
+}
+
+.card-img-top{
+    height: 150px;
+    margin-top: 20px;
+}
+
+.listaPokemon::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgba(0, 128, 128, 0.405);
+}
+
+.listaPokemon::-webkit-scrollbar-thumb{
+    background-color: teal;
+    border-radius: 4px;
+}

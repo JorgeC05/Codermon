@@ -1,0 +1,27 @@
+.listaCarrito{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.listaCarrito::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgba(0, 128, 128, 0.405);
+}
+
+.listaCarrito::-webkit-scrollbar-thumb{
+    background-color: teal;
+    border-radius: 4px;
+}
+
+
+
+
+
+th, td {
+    text-align: center;
+}
+
+td{
+    line-height: 90px;
+}

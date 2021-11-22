@@ -1,0 +1,13 @@
+.texto{
+    width: 100%;
+    padding: 5px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;  
+    align-content: space-around; 
+}
+
+.texto > li{
+    list-style: none;
+    padding: 10px;
+}

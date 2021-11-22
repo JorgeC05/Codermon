@@ -1,0 +1,83 @@
+.MiPokeContainer{
+    width: 100%;
+    height: 100%;
+    /* background-color: thistle; */
+    display: flex;
+}
+
+
+
+.vistaPokemon{
+    width: 60%;
+    height: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vistaPokemon > .card{
+    background-color: transparent;
+}
+
+.caracteristicas{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+
+.img-pokemon{
+    height: 300px;
+}
+
+.vistaHabilidades{
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.vistaEstado{
+    width: 100%;
+    height: 40%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista-item{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+.lista-item h5, .lista-item p{
+    width: 50%;
+    line-height: 20px;
+}
+
+.lista-item h5{
+    text-align: end;
+}
+
+.lista-item p{
+    text-align: center;
+}
+
+.lista{
+    border: 1px solid whitesmoke ;
+}
+
+.alert-custom{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    left: 60px;
+    z-index: 1;
+}
+
