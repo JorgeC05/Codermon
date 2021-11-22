@@ -9,21 +9,21 @@ export const guion = [
         texto: "Es hora de comenzar......."
     },
     {
-        texto: `Esta aplicación se basa en los Pokemón, y con ella busco porder 
-        crear interacción entre los pokemons que se escojan y el usuario
-        que quiera jugar.`
+        texto: `Esta aplicación se basa en los Pokemón, y con ella busco
+        crear interacción entre el pokemon que se escoja y el usuario con quien
+        se quiera jugar.`
     },
     {
-        texto: `El objetivo es mantener las caracteristicas básicas de cada uno
-        y generar su crecimiento por medio de botonesque darán apoyo al pokemón y funciones que
+        texto: `El objetivo es mantener las caracteristicas básicas de cada uno de los pokemones
+        y generar su crecimiento por medio de botones, que darán apoyo al pokemón y algunas funciones que
         permitirán su cuidado básico.`
     },
     {
-        texto: `Tendrás un listado de pokemon con el cual podrás esciger los que quieras tener a futuro
+        texto: `Tendrás un listado de pokemon con el cual podrás escoger los que quieras tener a futuro
         con algunas funcionalidades que se agregarán más adelante `
     },
     {
-        texto: `Podrás Alimentar, daler bienestar y hacer Desacansar a tu pokemón para que se
+        texto: `Podrás Alimentar, daler Bienestar y hacer Desacansar a tu pokemón para que se
         mantenga muy sano`
     },
     {
